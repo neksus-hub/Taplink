@@ -198,10 +198,15 @@ body {
   margin-bottom: 14px;
 }
 
+.send-button-block {
+  justify-content: center;
+  display: flex;
+}
+
 .send-button {
   text-decoration: none;
   height: 52px;
-  width: 100%;
+  width: 150px;
   border-radius: 10px;
   background-color: #000;
   display: flex;
@@ -216,4 +221,13 @@ body {
   line-height: 24px;
   text-align: center;
   color: #ffffff;
+}
+
+.signature {
+  margin: auto;
+  margin-top: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #776868;
 }
