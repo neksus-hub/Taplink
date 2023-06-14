@@ -18,6 +18,11 @@ body {
   border-radius: 20px;
 }
 
+.container {
+  max-width: 352px;
+  margin: auto;
+}
+
 .header {
   color: #fff;
   font: Inter;
@@ -47,8 +52,7 @@ body {
 }
 
 .user {
-  margin: 22px 133px 22px 29px;
-  max-width: 266px;
+  margin: 22px 0 22px 0;
   max-height: 80px;
   display: flex;
 }
@@ -80,4 +84,65 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: #776868;
+}
+
+.card {
+  margin-top: 22px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 352px;
+  gap: 30px;
+}
+
+.button {
+  height: 52px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vk {
+  background-color: #4c75a3;
+  margin-bottom: 20px;
+}
+
+.tg {
+  background-color: #0088cc;
+  margin-bottom: 20px;
+}
+
+.yt {
+  background-color: #ff0000;
+  margin-bottom: 20px;
+}
+
+.hh {
+  background-color: #d64030;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 24pt;
+}
+
+.git {
+  background-color: #000;
+}
+
+.advertising {
+  max-width: 348px;
+  height: 51px;
+  margin-bottom: 22px;
+}
+
+.text-advertising {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 }
