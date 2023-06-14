@@ -140,9 +140,80 @@ body {
   margin-bottom: 22px;
 }
 
+.second {
+  height: 20px;
+}
+
 .text-advertising {
   text-align: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
+}
+
+.line {
+  max-width: 250px;
+  margin-bottom: 22px;
+}
+
+.price-button {
+  text-decoration: none;
+  height: 52px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+
+.price-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.form {
+  margin: auto;
+}
+
+.form-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin: auto;
+  margin-bottom: 14px;
+}
+
+.input {
+  width: 348px;
+  height: 28px;
+  background-color: #e2e2e2;
+}
+
+.name {
+  margin-bottom: 14px;
+}
+
+.send-button {
+  text-decoration: none;
+  height: 52px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 22px 0 22px 0;
+}
+
+.send-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
 }
