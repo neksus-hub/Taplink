@@ -35,6 +35,10 @@ body {
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
 }
 
+.hello-block {
+  padding-bottom: 10px;
+}
+
 .hello {
   line-height: 29px;
   font-weight: 400;
@@ -51,6 +55,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
+  margin-left: 30px;
 }
 
 .user {
