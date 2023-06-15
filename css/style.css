@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -61,13 +63,10 @@ body {
   margin: auto;
 }
 
-.user-info {
-  margin-left: 23px;
-}
-
 .user-avatar {
   object-fit: cover;
   border-radius: 50%;
+  margin-right: 23px;
 }
 
 .user-name {
@@ -86,15 +85,12 @@ body {
   color: #776868;
 }
 
-.card {
-  margin-top: 22px;
-}
-
 .buttons {
   display: flex;
   justify-content: space-between;
   max-width: 352px;
   gap: 30px;
+  padding-bottom: 22px;
 }
 
 .button {
@@ -109,17 +105,14 @@ body {
 
 .vk {
   background-color: #4c75a3;
-  margin-bottom: 20px;
 }
 
 .tg {
   background-color: #0088cc;
-  margin-bottom: 20px;
 }
 
 .yt {
   background-color: #ff0000;
-  margin-bottom: 20px;
 }
 
 .hh {
@@ -151,9 +144,15 @@ body {
   line-height: 17px;
 }
 
+.line-block {
+  padding-bottom: 22px;
+}
+
 .line {
   max-width: 250px;
   margin-bottom: 22px;
+  text-align: center;
+  margin: auto;
 }
 
 .price-button {
@@ -201,6 +200,7 @@ body {
 .send-button-block {
   justify-content: center;
   display: flex;
+  padding: 22px 0 22px 0;
 }
 
 .send-button {
@@ -212,7 +212,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 22px 0 22px 0;
 }
 
 .send-text {
